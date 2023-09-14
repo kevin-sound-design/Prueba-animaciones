@@ -103,6 +103,7 @@ main{
     gap: 40px;
     padding: 0px 30px;
     overflow-y: scroll;
+    scroll-behavior: smooth;
 
 }
 
@@ -211,6 +212,7 @@ footer ul li:hover{
         justify-content: none;
         height: 90vh;
         width: 13rem;
+        background-position: bottom;
     
     }
 
@@ -245,10 +247,17 @@ footer ul li:hover{
     
     }
 
+   
+
     footer ul li a{
 
         font-size: 1.3rem;
     
+    }
+
+    footer{
+
+        background-position: top;
     }
 
 
